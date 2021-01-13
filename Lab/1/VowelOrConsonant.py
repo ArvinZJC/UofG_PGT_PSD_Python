@@ -1,10 +1,10 @@
 '''
 Description: exercise: vowel or consonant
-Version: 
+Version: 1.0.0.20210113
 Author: Arvin Zhao
 Date: 2021-01-13 10:24:55
-Last Editors: 
-LastEditTime: 2021-01-13 11:04:17
+Last Editors: Arvin Zhao
+LastEditTime: 2021-01-13 18:15:46
 '''
 
 def tell_vowel_consonant(letter: str) -> None:
