@@ -1,10 +1,10 @@
 '''
 Description: exercise: classifying triangles
-Version: 1.0.0.20210113
+Version: 1.0.1.20210114
 Author: Arvin Zhao
 Date: 2021-01-13 11:27:43
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-13 12:19:07
+LastEditTime: 2021-01-14 03:54:14
 '''
 
 class Triangle:
@@ -28,10 +28,14 @@ class Triangle:
         '''
 
         # For a triangle, the sum of any 2 sides of a triangle must be greater than the measure of the third side.
-        if self.side1 + self.side2 > self.side3 and self.side1 + self.side3 > self.side2 and self.side2 + self.side3 > self.side1:
+        if self.side1 + self.side2 > self.side3 and \
+            self.side1 + self.side3 > self.side2 and \
+            self.side2 + self.side3 > self.side1:
             if self.side1 == self.side2 == self.side3:
                 print('Equilateral triangle')
-            elif self.side1 != self.side2 and self.side1 != self.side3 and self.side2 != self.side3:
+            elif self.side1 != self.side2 and \
+                self.side1 != self.side3 and \
+                self.side2 != self.side3:
                 print('Scalene triangle')
             else:
                 print('Isosceles triangle')

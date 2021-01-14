@@ -1,10 +1,10 @@
 '''
 Description: exercise: even or odd
-Version: 1.0.0.20210113
+Version: 1.0.1.20210114
 Author: Arvin Zhao
 Date: 2021-01-13 09:55:49
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-13 11:12:07
+LastEditTime: 2021-01-14 03:52:01
 '''
 
 def tell_even_odd(num: int) -> None:
@@ -17,9 +17,9 @@ def tell_even_odd(num: int) -> None:
     '''
 
     if num % 2 == 0:
-        print('Even')
+        print(num, 'is even.')
     else:
-        print('Odd')
+        print(num, 'is odd.')
 
 
 if __name__ == '__main__':
