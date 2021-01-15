@@ -1,10 +1,10 @@
 '''
-Description: Problem 4. Debugging code (correct the lines with errors)
+Description: Problem 4. Debugging code (correct errors)
 Version: 1.0.0.20210115
 Author: Arvin Zhao
 Date: 2021-01-15 09:50:36
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-15 10:19:53
+LastEditTime: 2021-01-15 13:20:09
 '''
 
 import random
