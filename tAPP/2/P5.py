@@ -1,10 +1,10 @@
 '''
 Description: Problem 5 (complete the function)
-Version: 1.0.0.20210115
+Version: 1.0.1.20210116
 Author: Arvin Zhao
 Date: 2021-01-15 10:20:02
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-15 10:31:08
+LastEditTime: 2021-01-16 04:11:03
 '''
 
 import random
@@ -37,5 +37,5 @@ def main():
     check_answer(comp_num, guess)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # It is strongly recommended to add this line.
     main()
