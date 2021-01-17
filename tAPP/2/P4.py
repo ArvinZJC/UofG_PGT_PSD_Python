@@ -4,7 +4,7 @@ Version: 1.0.0.20210115
 Author: Arvin Zhao
 Date: 2021-01-15 09:50:36
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-15 13:20:09
+LastEditTime: 2021-01-17 12:17:59
 '''
 
 import random
@@ -49,6 +49,6 @@ def main():
     else:  # Improper indent.
         print('Incorrect selection.')
 
-    
+
 if __name__ == '__main__':  # It is strongly recommended to add this line.
     main()
