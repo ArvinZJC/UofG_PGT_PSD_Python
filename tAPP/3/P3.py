@@ -1,14 +1,16 @@
 '''
 Description: Problem 3. Parsons puzzle (rearrange the code)
-Version: 1.0.0.20210116
+Version: 1.0.1.20210117
 Author: Arvin Zhao
 Date: 2021-01-16 00:18:30
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-16 04:11:49
+LastEditTime: 2021-01-17 12:01:40
 '''
 
 import sqlite3
-from tkinter import *
+#  Using star imports is not wrong but is not recommended.
+from tkinter import Tk, Label, Entry, Button
+from tkinter.constants import END
 
 
 def addtolist():

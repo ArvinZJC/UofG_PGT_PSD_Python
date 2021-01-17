@@ -1,10 +1,10 @@
 '''
 Description: Problem 4 (complete the code)
-Version: 1.0.0.20210116
+Version: 1.0.1.20210117
 Author: Arvin Zhao
 Date: 2021-01-16 00:19:34
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-16 04:18:35
+LastEditTime: 2021-01-17 12:01:10
 '''
 
 from tkinter import Tk, Label, Entry, Button
@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     label1 = Label(text = 'Enter the value you want to convert: ')
     label1.place(x = 30, y = 20)
-    
+
     textbox1 = Entry(text = '')
     textbox1.place(x = 30, y = 50, width = 200, height = 25)
     textbox1['justify'] = 'center'

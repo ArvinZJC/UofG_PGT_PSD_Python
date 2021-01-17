@@ -1,13 +1,15 @@
 '''
 Description: Problem 2. Debugging code (correct errors)
-Version: 1.0.0.20210116
+Version: 1.0.1.20210117
 Author: Arvin Zhao
 Date: 2021-01-16 00:09:06
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-16 04:07:44
+LastEditTime: 2021-01-17 12:01:03
 '''
 
-from tkinter import *
+#  Using star imports is not wrong but is not recommended.
+from tkinter import Tk, Label, Entry, Button
+from tkinter.constants import END
 
 
 def create_new():
