@@ -1,10 +1,10 @@
 '''
 Description: Exercise 1. Slicing
-Version: 1.0.2.20210113
+Version: 1.0.3.20210117
 Author: Arvin Zhao
 Date: 2021-01-12 04:01:07
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-13 06:52:20
+LastEditTime: 2021-01-17 12:12:28
 '''
 
 def get_line() -> str:
@@ -25,7 +25,7 @@ def get_line() -> str:
             print('Please do enter something!')
         else:
             break
-    
+
     return line
 
 
@@ -50,7 +50,7 @@ def get_start() -> int:
                 break
             except ValueError:
                 print('Error! Integer please!')
-    
+
     return start
 
 
@@ -65,7 +65,7 @@ def get_end() -> int:
 
     while True:
         end = input('Enter an ending number: ')
-        
+
         if len(end.strip()) == 0:
             end = None
             break

@@ -1,10 +1,10 @@
 '''
 Description: exercise: classifying triangles
-Version: 1.0.1.20210114
+Version: 1.0.2.20210117
 Author: Arvin Zhao
 Date: 2021-01-13 11:27:43
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-14 03:54:14
+LastEditTime: 2021-01-17 12:11:08
 '''
 
 class Triangle:
@@ -20,7 +20,7 @@ class Triangle:
         self.side1 = side1
         self.side2 = side2
         self.side3 = side3
-    
+
 
     def decide_triangle_type(self) -> str:
         '''

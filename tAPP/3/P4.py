@@ -4,7 +4,7 @@ Version: 1.0.1.20210117
 Author: Arvin Zhao
 Date: 2021-01-16 00:19:34
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-17 12:01:10
+LastEditTime: 2021-01-17 12:13:41
 '''
 
 from tkinter import Tk, Label, Entry, Button
@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     convert1 = Button(text = 'Convert mile to km', command = convert_to_km)
     convert1.place(x = 30, y = 80, width = 200, height = 25)
-    
+
     convert2 = Button(text = 'Convert km to mile', command = convert_to_miles)
     convert2.place(x = 30, y = 110, width = 200, height = 25)
 
