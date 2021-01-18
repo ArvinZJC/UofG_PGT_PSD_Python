@@ -4,11 +4,10 @@ Version: 1.0.0.20210118
 Author: Arvin Zhao
 Date: 2021-01-18 16:08:00
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 16:15:13
+LastEditTime: 2021-01-18 18:14:47
 '''
 
 from array import array
-import math
 
 
 num_array = array('f', [10.24, 66.66, 23.33, 99.99, 13.14])
