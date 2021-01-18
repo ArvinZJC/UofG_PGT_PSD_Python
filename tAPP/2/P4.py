@@ -1,13 +1,14 @@
 '''
 Description: Problem 4. Debugging code (correct errors)
-Version: 1.0.0.20210115
+Version: 1.0.1.20210118
 Author: Arvin Zhao
 Date: 2021-01-15 09:50:36
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-17 12:17:59
+LastEditTime: 2021-01-18 04:23:57
 '''
 
 import random
+
 
 def addition():
     num1 = random.randint(5, 20)

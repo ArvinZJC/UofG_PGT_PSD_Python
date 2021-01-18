@@ -1,13 +1,14 @@
 '''
 Description: Problem 5 (complete the function)
-Version: 1.0.1.20210116
+Version: 1.0.2.20210118
 Author: Arvin Zhao
 Date: 2021-01-15 10:20:02
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-16 04:11:03
+LastEditTime: 2021-01-18 04:23:26
 '''
 
 import random
+
 
 def pick_number():
     low = int(input('Enter the bottom of the range: '))
