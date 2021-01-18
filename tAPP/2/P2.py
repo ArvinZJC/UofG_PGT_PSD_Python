@@ -1,10 +1,10 @@
 '''
 Description: Problem 2 (rearrange the code)
-Version: 1.0.1.20210117
+Version: 1.0.2.20210118
 Author: Arvin Zhao
 Date: 2021-01-14 22:35:43
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-17 12:13:08
+LastEditTime: 2021-01-18 18:11:03
 '''
 
 line = input('Enter a string: ')
@@ -17,7 +17,7 @@ while i < len(line) / 2 and is_palindrome:
     else:
         is_palindrome = True
 
-    i = i + 1
+    i += 1
 
 if is_palindrome:
     print(line, 'is a palindrome.')
