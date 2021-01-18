@@ -1,16 +1,16 @@
 '''
 Description: Problem 1
-Version: 1.0.0.20210116
+Version: 1.0.1.20210118
 Author: Arvin Zhao
 Date: 2021-01-16 00:07:36
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-16 03:53:57
+LastEditTime: 2021-01-18 17:27:08
 '''
 
 import sqlite3
 
 
-database = sqlite3.connect('tAPP/3/employees.db')  # Connect to the specified database (create one if there is none).
+database = sqlite3.connect('employees.db')  # Connect to the specified database (create one if there is none).
 cursor = database.cursor()
 
 cursor.execute("""CREATE TABLE IF NOT EXISTS contactDetails(

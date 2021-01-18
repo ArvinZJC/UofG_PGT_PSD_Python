@@ -4,7 +4,7 @@ Version: 1.0.1.20210117
 Author: Arvin Zhao
 Date: 2021-01-16 00:18:30
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-17 12:01:40
+LastEditTime: 2021-01-18 17:28:02
 '''
 
 import sqlite3
@@ -30,7 +30,7 @@ def clearlist():
 
 
 if __name__ == '__main__':  # It is strongly recommended to add this line.
-    with sqlite3.connect('tAPP/3/TestScore.db') as db:
+    with sqlite3.connect('TestScore.db') as db:
         cursor = db.cursor()
 
     cursor.execute("""CREATE TABLE IF NOT EXISTS Scores(

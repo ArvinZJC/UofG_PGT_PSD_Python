@@ -1,10 +1,10 @@
 '''
 Description: Problem 2. Debugging code (correct errors)
-Version: 1.0.1.20210117
+Version: 1.0.2.20210118
 Author: Arvin Zhao
 Date: 2021-01-16 00:09:06
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-17 12:01:03
+LastEditTime: 2021-01-18 17:27:16
 '''
 
 #  Using star imports is not wrong but is not recommended.
@@ -13,12 +13,12 @@ from tkinter.constants import END
 
 
 def create_new():
-    file = open('tAPP/3/ages.csv', 'w')  # ".cvs" is wrong.
+    file = open('ages.csv', 'w')  # ".cvs" is wrong.
     file.close()
 
 
 def save_list():
-    file = open('tAPP/3/ages.csv', 'a')  # "w" mode is wrong.
+    file = open('ages.csv', 'a')  # "w" mode is wrong.
     name = name_box.get()
     age = age_box.get()
     newrecord = name + ',' + age + '\n'  # Some strings are wrong.
