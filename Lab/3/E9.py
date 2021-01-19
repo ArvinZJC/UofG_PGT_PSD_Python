@@ -1,10 +1,10 @@
 '''
 Description: Exercise 9 (Tkinter GUI)
-Version: 1.0.0.20210118
+Version: 1.0.1.20210119
 Author: Arvin Zhao
 Date: 2021-01-18 21:40:01
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 21:04:36
+LastEditTime: 2021-01-19 21:12:41
 '''
 
 from tkinter import Tk, Label, Entry, Button, Listbox
