@@ -1,10 +1,10 @@
 '''
 Description: Exercises 29 & 30 (2D list and dictionary)
-Version: 1.0.0.20210118
+Version: 1.0.1.20210119
 Author: Arvin Zhao
 Date: 2021-01-18 16:35:36
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 16:52:02
+LastEditTime: 2021-01-19 17:46:43
 '''
 
 name_dictionary = {}
@@ -17,7 +17,6 @@ for count in range(4):
 for name in name_dictionary:
     print('Name:', name, ', age:', name_dictionary[name]['Age'])
 
-# Start here for Exercise 30.
 print()
 name_dictionary.pop(input('Enter the name that you want to remove from the list: ').strip())
 

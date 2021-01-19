@@ -1,10 +1,10 @@
 '''
 Description: Problem 1
-Version: 1.0.1.20210118
+Version: 1.0.2.20210119
 Author: Arvin Zhao
 Date: 2021-01-16 00:07:36
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 17:27:08
+LastEditTime: 2021-01-19 17:55:21
 '''
 
 import sqlite3
@@ -13,31 +13,31 @@ import sqlite3
 database = sqlite3.connect('employees.db')  # Connect to the specified database (create one if there is none).
 cursor = database.cursor()
 
-cursor.execute("""CREATE TABLE IF NOT EXISTS contactDetails(
+cursor.execute('''CREATE TABLE IF NOT EXISTS contactDetails(
     age integer,
     first text,
     surname text,
-    telephone text)""")  # Create a specified table.
+    telephone text)''')  # Create a specified table.
 
 # Insert data into the table.
-cursor.execute("""INSERT INTO contactDetails(age, first, surname, telephone) VALUES(
+cursor.execute('''INSERT INTO contactDetails(age, first, surname, telephone) VALUES(
     42,
     'Derrick',
     'Brown',
-    '0122345 8765')""")
-cursor.execute("""INSERT INTO contactDetails(age, first, surname, telephone) VALUES(
+    '0122345 8765')''')
+cursor.execute('''INSERT INTO contactDetails(age, first, surname, telephone) VALUES(
     62,
     'Simon',
     'Pierre',
-    '0142678 9056')""")
-cursor.execute("""INSERT INTO contactDetails(age, first, surname, telephone) VALUES(
+    '0142678 9056')''')
+cursor.execute('''INSERT INTO contactDetails(age, first, surname, telephone) VALUES(
     72,
     'Katarina',
     'Iglesias',
-    '0203456 7078')""")
+    '0203456 7078')''')
 database.commit()  # Save changes.
 
-cursor.execute("SELECT * FROM contactDetails")
+cursor.execute('SELECT * FROM contactDetails')
 
 for contact in cursor.fetchall():
     print(contact)

@@ -4,7 +4,7 @@ Version: 1.0.1.20210117
 Author: Arvin Zhao
 Date: 2021-01-16 00:18:30
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 17:28:02
+LastEditTime: 2021-01-19 17:56:09
 '''
 
 import sqlite3
@@ -16,7 +16,7 @@ from tkinter.constants import END
 def addtolist():
     newname = sname.get()
     newgrade = sgrade.get()
-    cursor.execute("""INSERT INTO Scores(name, score) VALUES(?, ?)""", (newname, newgrade))
+    cursor.execute('INSERT INTO Scores(name, score) VALUES(?, ?)', (newname, newgrade))
     db.commit()
     sname.delete(0, END)
     sgrade.delete(0, END)
@@ -33,10 +33,10 @@ if __name__ == '__main__':  # It is strongly recommended to add this line.
     with sqlite3.connect('TestScore.db') as db:
         cursor = db.cursor()
 
-    cursor.execute("""CREATE TABLE IF NOT EXISTS Scores(
+    cursor.execute('''CREATE TABLE IF NOT EXISTS Scores(
         id integer PRIMARY KEY,
         name text,
-        score integer)""")
+        score integer)''')
 
     window = Tk()
     window.geometry('450x200')
