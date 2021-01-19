@@ -4,10 +4,10 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 17:18:58
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 17:49:59
+LastEditTime: 2021-01-19 21:01:38
 '''
 
-from tkinter import Button, Tk, Label, Entry, Button, StringVar, OptionMenu, Listbox
+from tkinter import Button, Tk, Label, Entry, StringVar, OptionMenu, Listbox
 from tkinter.constants import END
 
 

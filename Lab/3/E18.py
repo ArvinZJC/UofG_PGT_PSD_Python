@@ -4,7 +4,7 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 18:02:18
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 20:53:18
+LastEditTime: 2021-01-19 21:03:02
 '''
 
 import sqlite3, sys
@@ -54,12 +54,12 @@ def delete() -> None:
     Delete a person from the phone book.
     '''
 
-    id = int(input('Enter the ID: '))
-    cursor.execute('DELETE FROM Names WHERE id = ?', [id])
+    person_id = int(input('Enter the ID: '))
+    cursor.execute('DELETE FROM Names WHERE id = ?', [person_id])
     database.commit()
 
 
-def quit() -> None:
+def quit_program() -> None:
     '''
     Close the database connection and quit the program.
     '''
@@ -90,7 +90,7 @@ if __name__ == '__main__':
             '2': add,
             '3': search,
             '4': delete,
-            '5': quit
+            '5': quit_program
         }
         operation_switch.get(choice, print_error)()
         print()

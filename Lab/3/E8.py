@@ -4,7 +4,7 @@ Version: 1.0.0.20210118
 Author: Arvin Zhao
 Date: 2021-01-18 21:27:18
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 22:54:05
+LastEditTime: 2021-01-19 21:04:05
 '''
 
 from tkinter import Tk, Label, Entry, Button, Listbox
@@ -50,7 +50,7 @@ class home:
         name = self.entry_name.get()
         self.listbox_name.insert(END, name)
         self.entry_name.delete(0, END)
-        
+
 
     def clear(self) -> None:
         '''

@@ -4,7 +4,7 @@ Version: 1.0.0.20210118
 Author: Arvin Zhao
 Date: 2021-01-18 18:42:23
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 20:31:33
+LastEditTime: 2021-01-19 21:03:41
 '''
 
 import os, sys, csv
@@ -55,7 +55,7 @@ def delete_record() -> None:
         record_list = list(csv.reader(open(file_name, 'r')))
         name = input('Select a record to delete by entering a name: ').strip()
         has_record = False
-        
+
         for count in range(len(record_list)):
             if len(record_list[count]) != 0 and record_list[count][0] == name:
                 has_record = True
@@ -70,7 +70,7 @@ def delete_record() -> None:
                     file.write('\n')
                 else:
                     file.write(record[0] + ',' + record[1] + ',\n')
-            
+
             file.close()
         else:
             print('Error! No such record!')

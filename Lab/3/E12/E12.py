@@ -4,11 +4,10 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 14:04:51
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 16:45:46
+LastEditTime: 2021-01-19 21:00:23
 '''
 
 from tkinter import Message, PhotoImage, Tk, Label, Entry, Button
-from tkinter.constants import END
 
 
 def press() -> None:

@@ -4,7 +4,7 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 09:00:15
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 17:13:48
+LastEditTime: 2021-01-19 21:00:01
 '''
 
 from tkinter import StringVar, Tk, Label, Entry, Listbox, Button
@@ -53,7 +53,7 @@ class home:
 		self.button_display = Button(text = 'Show', command = self.display)
 		self.button_display.place(x = 250, y = 110, width = 100, height = 50)
 
-    
+
 	def save(self) -> None:
 		'''
 		Save the name and the age to the file.
@@ -70,7 +70,7 @@ class home:
 				raise ValueError
 		except ValueError:
 			is_invalid_age = True
-		
+
 		if name == '' or is_invalid_age:
 			self.note_text.set('Error! Invalid input.')
 		else:
@@ -79,7 +79,7 @@ class home:
 			self.entry_age.delete(0, END)
 
 			data = tuple((name, age))
-		
+
 			file = open(file_name, 'a')
 			writer = csv.writer(file, lineterminator = '\n')
 			writer.writerow(data)

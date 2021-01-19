@@ -4,7 +4,7 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 16:59:37
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 17:29:38
+LastEditTime: 2021-01-19 21:01:24
 '''
 
 from tkinter import Tk, OptionMenu, StringVar
@@ -21,7 +21,7 @@ class home:
 		'''
 
 		OPTIONS = ['red', 'orange', 'blue', 'green']
-		
+
 		self.root = root
 		self.root.title('Colours')
 		self.root.geometry('400x200')

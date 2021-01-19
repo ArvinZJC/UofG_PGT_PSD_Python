@@ -4,7 +4,7 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 15:57:06
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 17:38:23
+LastEditTime: 2021-01-19 21:01:06
 '''
 
 from tkinter import StringVar, Tk, Label, PhotoImage, Entry, Button
@@ -21,7 +21,7 @@ class home:
 		'''
 		The constructor of the class.
 		'''
-		
+
 		self.root = root
 		self.root.title("Addition")
 		self.root.geometry("400x300")

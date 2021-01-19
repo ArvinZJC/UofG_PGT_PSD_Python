@@ -1,14 +1,11 @@
 '''
 Description: Exercise 1 (file)
-Version: 1.0.0.20210118
+Version: 1.0.1.20210119
 Author: Arvin Zhao
 Date: 2021-01-18 16:58:49
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 18:21:42
+LastEditTime: 2021-01-19 20:59:07
 '''
-
-import os
-
 
 file_name = 'Subjects.txt'
 

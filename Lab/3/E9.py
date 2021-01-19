@@ -4,7 +4,7 @@ Version: 1.0.0.20210118
 Author: Arvin Zhao
 Date: 2021-01-18 21:40:01
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 23:01:42
+LastEditTime: 2021-01-19 21:04:36
 '''
 
 from tkinter import Tk, Label, Entry, Button, Listbox
@@ -57,7 +57,7 @@ class home:
 
 		self.entry_num.delete(0, END)
 
-    
+
 	def clear(self) -> None:
 		'''
 		Clear the list.
