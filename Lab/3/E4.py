@@ -1,10 +1,10 @@
 '''
 Description: Exercise 4 (file)
-Version: 1.0.0.20210118
+Version: 1.0.1.20210119
 Author: Arvin Zhao
 Date: 2021-01-18 18:42:23
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 21:03:41
+LastEditTime: 2021-01-19 21:11:42
 '''
 
 import os, sys, csv
@@ -56,10 +56,10 @@ def delete_record() -> None:
         name = input('Select a record to delete by entering a name: ').strip()
         has_record = False
 
-        for count in range(len(record_list)):
-            if len(record_list[count]) != 0 and record_list[count][0] == name:
+        for record in record_list:
+            if len(record) != 0 and record[0] == name:
                 has_record = True
-                record_list.pop(count)
+                record_list.pop(record_list.index(record))
                 break
 
         if has_record:
