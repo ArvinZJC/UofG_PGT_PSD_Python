@@ -4,13 +4,13 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 16:59:37
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 21:01:24
+LastEditTime: 2021-01-20 13:50:44
 '''
 
 from tkinter import Tk, OptionMenu, StringVar
 
 
-class home:
+class Home:
 	'''
 	The home window.
 	'''
@@ -43,5 +43,5 @@ class home:
 
 
 window = Tk()
-home(window)
+Home(window)
 window.mainloop()	

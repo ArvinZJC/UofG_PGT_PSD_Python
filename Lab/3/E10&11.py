@@ -4,7 +4,7 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 09:00:15
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 21:00:01
+LastEditTime: 2021-01-20 13:50:33
 '''
 
 from tkinter import StringVar, Tk, Label, Entry, Listbox, Button
@@ -12,7 +12,7 @@ from tkinter.constants import END
 import csv
 
 
-class home:
+class Home:
 	'''
 	The home window.
 	'''
@@ -101,5 +101,5 @@ class home:
 file_name = 'name_age_list.csv'
 
 window = Tk()
-home(window)
+Home(window)
 window.mainloop()

@@ -1,10 +1,10 @@
 '''
 Description: Exercise 12 (Tkinter GUI)
-Version: 1.0.0.20210119
+Version: 1.0.1.20210120
 Author: Arvin Zhao
 Date: 2021-01-19 14:04:51
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 21:00:23
+LastEditTime: 2021-01-20 17:43:08
 '''
 
 from tkinter import Message, PhotoImage, Tk, Label, Entry, Button
@@ -26,8 +26,8 @@ if __name__ == '__main__':
     window.wm_iconbitmap('Dunno.ico')
     window.configure(bg = 'black')
 
-    image_logo = PhotoImage(file = 'Meme.gif')
-    label_logo = Label(image = image_logo)  # You can import a GIF or PNG image if you use Tkinter 8.6 or above. Otherwise, only GIF images are acceptable.
+    image_logo = PhotoImage(file = 'Meme.gif')  # You can import a GIF or PNG image if you use Tkinter 8.6 or above. Otherwise, only GIF images are acceptable.
+    label_logo = Label(image = image_logo)
     label_logo.place(x = 100, y = 20, width = 200, height = 150)
 
     label_name = Label(text = 'Enter your name:', bg = 'black', fg = 'white')

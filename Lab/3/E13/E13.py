@@ -4,7 +4,7 @@ Version: 1.0.0.20210119
 Author: Arvin Zhao
 Date: 2021-01-19 15:57:06
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 21:01:06
+LastEditTime: 2021-01-20 13:51:15
 '''
 
 from tkinter import StringVar, Tk, Label, PhotoImage, Entry, Button
@@ -12,7 +12,7 @@ from tkinter.constants import END
 import random
 
 
-class home:
+class Home:
 	'''
 	The home window.
 	'''
@@ -81,5 +81,5 @@ class home:
 
 
 window = Tk()
-home(window)
+Home(window)
 window.mainloop()

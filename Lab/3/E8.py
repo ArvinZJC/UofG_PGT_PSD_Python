@@ -4,14 +4,14 @@ Version: 1.0.1.20210119
 Author: Arvin Zhao
 Date: 2021-01-18 21:27:18
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 21:12:26
+LastEditTime: 2021-01-20 13:49:46
 '''
 
 from tkinter import Tk, Label, Entry, Button, Listbox
 from tkinter.constants import END
 
 
-class home:
+class Home:
     '''
     The home window.
     '''
@@ -62,5 +62,5 @@ class home:
 
 
 window = Tk()
-home(window)
+Home(window)
 window.mainloop()
