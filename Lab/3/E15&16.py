@@ -1,10 +1,10 @@
 '''
 Description: Exercises 15 & 16 (Tkinter GUI)
-Version: 1.0.0.20210119
+Version: 1.0.1.20210121
 Author: Arvin Zhao
 Date: 2021-01-19 17:18:58
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-20 13:50:58
+LastEditTime: 2021-01-21 16:08:24
 '''
 
 from tkinter import Button, Tk, Label, Entry, StringVar, OptionMenu, Listbox
@@ -40,7 +40,7 @@ class Home:
 		self.variable_gender = StringVar(root)
 		self.variable_gender.set(self.OPTIONS[0])
 		self.option_menu_gender= OptionMenu(root, self.variable_gender, *self.OPTIONS)
-		self.option_menu_gender.place(x=150,y=100,width=100,height=25)
+		self.option_menu_gender.place(x = 150, y = 100, width = 100, height = 25)
 
 		self.button_add = Button(text = 'Add', command = self.add)
 		self.button_add.place(x = 20, y = 150, width = 100, height = 25)
@@ -64,7 +64,7 @@ class Home:
 		if name != '':
 			content = name + ', ' + self.variable_gender.get() + '\n'
 			self.listbox_content.insert(END, content)
-			self.entry_name.delete(0,END)
+			self.entry_name.delete(0, END)
 			self.variable_gender.set(self.OPTIONS[0])
 
 			file = open(self.file_name, 'a')
@@ -72,12 +72,14 @@ class Home:
 			file.close()
 
 
-	def display() -> None:
+	def display(self) -> None:
 		'''
-		TODO: ???
+		Display the entire text file in the console.
 		'''
 
-		# TODO: what does it mean by "display the entire text file in the main Python shell window"?
+		file = open(self.file_name, 'r')
+		print(file.read())
+		file.close()
 
 
 window = Tk()

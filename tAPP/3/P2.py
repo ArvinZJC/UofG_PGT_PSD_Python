@@ -1,10 +1,10 @@
 '''
 Description: Problem 2. Debugging code (correct errors)
-Version: 1.0.2.20210118
+Version: 1.0.3.20210121
 Author: Arvin Zhao
 Date: 2021-01-16 00:09:06
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 17:27:16
+LastEditTime: 2021-01-21 16:11:42
 '''
 
 #  Using star imports is not wrong but is not recommended.
@@ -50,7 +50,7 @@ if __name__ == '__main__':  # It is strongly recommended to add this line.
     age_box['justify'] = 'left'
 
     button1 = Button(text = 'Create new file', command = create_new)
-    button1.place(x = 250, y = 20, width = 100, height = 25)
+    button1.place(x = 250, y = 20, width = 100, height = 25)  # Miss a dot.
 
     button2 = Button(text = 'Add to file', command = save_list)  # Lack single quotes.
     button2.place(x = 250, y = 50, width = 100, height = 25)
