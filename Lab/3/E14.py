@@ -4,7 +4,7 @@ Version: 1.0.1.20210124
 Author: Arvin Zhao
 Date: 2021-01-19 16:59:37
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-24 17:33:43
+LastEditTime: 2021-01-24 18:04:09
 '''
 
 from tkinter import Tk, OptionMenu, StringVar
@@ -15,13 +15,13 @@ class Home:
 	The home window.
 	'''
 
-	def __init__(self, root) -> None:
+	def __init__(self, root: Tk) -> None:
 		'''
 		The constructor of the class.
 
 		Parameters
 		----------
-		root : the parent window or frame for the home window to display.
+		root : the parent window for the home window to display.
 		'''
 
 		OPTIONS = ['red', 'orange', 'blue', 'green']

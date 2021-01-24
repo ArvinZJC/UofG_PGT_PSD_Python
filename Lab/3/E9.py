@@ -4,7 +4,7 @@ Version: 1.0.2.20210124
 Author: Arvin Zhao
 Date: 2021-01-18 21:40:01
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-24 17:34:15
+LastEditTime: 2021-01-24 18:03:57
 '''
 
 from tkinter import Tk, Label, Entry, Button, Listbox
@@ -16,13 +16,13 @@ class Home:
 	The home window.
 	'''
 
-	def __init__(self, root) -> None:
+	def __init__(self, root: Tk) -> None:
 		'''
 		The constructor of the class.
 
 		Parameters
 		----------
-		root : the parent window or frame for the home window to display.
+		root : the parent window for the home window to display.
 		'''
 
 		self.root = root

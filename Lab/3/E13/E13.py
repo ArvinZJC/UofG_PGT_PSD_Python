@@ -17,13 +17,13 @@ class Home:
 	The home window.
 	'''
 
-	def __init__(self, root) -> None:
+	def __init__(self, root: Tk) -> None:
 		'''
 		The constructor of the class.
 
 		Parameters
 		----------
-		root : the parent window or frame for the home window to display.
+		root : the parent window for the home window to display.
 		'''
 
 		self.root = root
