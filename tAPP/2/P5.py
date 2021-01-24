@@ -1,10 +1,10 @@
 '''
 Description: Problem 5 (complete the function)
-Version: 1.0.2.20210118
+Version: 1.0.3.20210124
 Author: Arvin Zhao
 Date: 2021-01-15 10:20:02
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-18 04:23:26
+LastEditTime: 2021-01-24 17:32:44
 '''
 
 import random
@@ -23,7 +23,17 @@ def first_guess():
     return guess
 
 
-def check_answer(comp_num, guess):
+def check_answer(comp_num, guess) -> None:
+    '''
+    This is the function completed to check the answer.
+
+    Parameters
+    ----------
+    comp_num : the number picked by the computer
+
+    guess : the user's guess
+    '''
+
     if comp_num == guess:
         print('Correct, you win.')
     else:

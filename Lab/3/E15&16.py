@@ -1,10 +1,10 @@
 '''
 Description: Exercises 15 & 16 (Tkinter GUI)
-Version: 1.0.1.20210121
+Version: 1.0.2.20210124
 Author: Arvin Zhao
 Date: 2021-01-19 17:18:58
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-21 16:08:24
+LastEditTime: 2021-01-24 17:23:09
 '''
 
 from tkinter import Button, Tk, Label, Entry, StringVar, OptionMenu, Listbox
@@ -16,9 +16,13 @@ class Home:
 	The home window.
 	'''
 
-	def __init__(self, root):
+	def __init__(self, root) -> None:
 		'''
 		The constructor of the class.
+
+		Parameters
+		----------
+		root : the parent window or frame for the home window to display.
 		'''
 
 		self.root = root
@@ -54,7 +58,7 @@ class Home:
 		self.file_name = 'name_gender_list.txt'
 
 
-	def add(self):
+	def add(self) -> None:
 		'''
 		Add a name and a gender to the list box.
 		'''

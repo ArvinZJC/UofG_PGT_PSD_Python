@@ -1,10 +1,10 @@
 '''
 Description: Exercise 14 (Tkinter GUI)
-Version: 1.0.0.20210119
+Version: 1.0.1.20210124
 Author: Arvin Zhao
 Date: 2021-01-19 16:59:37
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-20 13:50:44
+LastEditTime: 2021-01-24 17:33:43
 '''
 
 from tkinter import Tk, OptionMenu, StringVar
@@ -15,9 +15,13 @@ class Home:
 	The home window.
 	'''
 
-	def __init__(self, root):
+	def __init__(self, root) -> None:
 		'''
 		The constructor of the class.
+
+		Parameters
+		----------
+		root : the parent window or frame for the home window to display.
 		'''
 
 		OPTIONS = ['red', 'orange', 'blue', 'green']

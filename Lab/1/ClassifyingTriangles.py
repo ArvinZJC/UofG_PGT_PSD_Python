@@ -1,10 +1,10 @@
 '''
 Description: exercise: classifying triangles
-Version: 1.0.2.20210117
+Version: 1.0.3.20210124
 Author: Arvin Zhao
 Date: 2021-01-13 11:27:43
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-17 12:11:08
+LastEditTime: 2021-01-24 17:36:12
 '''
 
 class Triangle:
@@ -15,6 +15,14 @@ class Triangle:
     def __init__(self, side1, side2, side3) -> None:
         '''
         Initialise an instance of the class Triangle.
+
+        Parameters
+        ----------
+        side1 : the first side of a triangle
+
+        side2 : the second side of a triangle
+
+        side3 : the third side of a triangle
         '''
 
         self.side1 = side1

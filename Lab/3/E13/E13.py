@@ -1,10 +1,10 @@
 '''
 Description: Exercise 13 (Tkinter GUI)
-Version: 1.0.0.20210119
+Version: 1.0.1.20210124
 Author: Arvin Zhao
 Date: 2021-01-19 15:57:06
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-20 13:51:15
+LastEditTime: 2021-01-24 17:34:43
 '''
 
 from tkinter import StringVar, Tk, Label, PhotoImage, Entry, Button
@@ -17,9 +17,13 @@ class Home:
 	The home window.
 	'''
 
-	def __init__(self, root):
+	def __init__(self, root) -> None:
 		'''
 		The constructor of the class.
+
+		Parameters
+		----------
+		root : the parent window or frame for the home window to display.
 		'''
 
 		self.root = root
