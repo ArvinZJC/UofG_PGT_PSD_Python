@@ -4,7 +4,7 @@ Version: 1.0.0.20210128
 Author: Arvin Zhao
 Date: 2021-01-28 15:44:12
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-28 15:49:21
+LastEditTime: 2021-01-28 23:16:53
 '''
 
 import numpy as np
@@ -27,13 +27,15 @@ print('The two arrays stacked vertically')
 print(np.vstack((array1,array2)))
 
 print('Split array 1 horizontally:\n')
+
 for i in np.hsplit(array1,3):
     print('Splitted here: \n', i)
-    
+
 print('Split array 2 horizontally:\n')
+
 for i in np.hsplit(array2,3):
     print('Splitted here: \n', i)
-    
+
 print('Split array 1 vertically:\n')
 
 for i in np.vsplit(array1,3):
