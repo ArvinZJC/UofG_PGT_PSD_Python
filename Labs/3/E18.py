@@ -1,17 +1,17 @@
 '''
 Description: Exercise 18 (SQLite 3)
-Version: 1.0.0.20210119
+Version: 1.0.1.20210225
 Author: Arvin Zhao
 Date: 2021-01-19 18:02:18
 Last Editors: Arvin Zhao
-LastEditTime: 2021-01-19 21:03:02
+LastEditTime: 2021-02-25 14:25:18
 '''
 
 import sqlite3, sys
 
 
 database = sqlite3.connect('PhoneBook1.db')
-cursor = database.cursor()\
+cursor = database.cursor()
 
 
 def view() -> None:
