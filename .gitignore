@@ -123,3 +123,6 @@ dmypy.json
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+# Others
+*.db
